@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mote"
+version = "2.0.0"
+description = "Møte is a Meetbot log wrangler, providing a user-friendly interface for Fedora Project's logs."
+authors = ["Jan Kuparinen <copper_fin@hotmail.com>"]
+license = "CC BY-SA 4.0"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Flask = "^2.0.1"
+python-dotenv = "^0.17.1"
+Flask-Babel = "^2.0.0"
+arrow = "^1.1.0"
+requests = "^2.25.1"
+bs4 = "^0.0.1"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

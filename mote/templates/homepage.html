@@ -1,0 +1,7 @@
+{% extends "main.html" %} {% block title %} {% if title %} {{title}} {% endif %}
+{% endblock %} {% block main_content %}
+<h3>
+  {% trans trimmed %}This site tests if user is logged in to Fedora{% endtrans
+  %}
+</h3>
+{% endblock %}
