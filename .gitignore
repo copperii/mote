@@ -3,7 +3,7 @@
 /env
 
 #log files
-/logs
+logs/
 
 # Byte-compiled / optimized
 __pycache__/

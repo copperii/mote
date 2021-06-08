@@ -17,3 +17,19 @@ Flask 2
 Python 3
 Poetry
 Tox
+
+### Basic usage
+
+Setting up environment:
+poetry install
+
+Starting up environment:
+poetry shell
+
+Starting up program:
+python run-mote.py
+
+view at: http://127.0.0.1:5000/
+
+Running tests:
+tox
